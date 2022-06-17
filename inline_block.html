@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@1,700&family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Inline and Block</title>
+    <style>
+      body {
+        font-family: "Roboto Condensed", sans-serif;
+      }
+      .nav {
+        padding: 10px 2px;
+        margin: 0;
+        background-color: #333;
+      }
+      .nav li {
+        display: inline;
+        padding: 5px;
+      }
+      .nav li:hover {
+        background-color: black;
+      }
+      .nav li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      img {
+        display: block;
+        padding-left: 35%;
+      }
+      .wet {
+        box-sizing: border-box;
+        width: 30%;
+        border: 1px solid #333;
+        border-radius: 2px;
+        padding: 10px;
+        margin: 1px;
+        display: inline-block;
+      }
+      #root {
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Inline and Block</h2>
+    <ul class="nav">
+      <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+      <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+      <li>
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+      </li>
+      <li>
+        <a href="https://www.whatsapp.com/" target="_blank">Whatsapp</a>
+      </li>
+      <li><a href="https://www.github.com/" target="_blank">GitHub</a></li>
+    </ul>
+    <br />
+    <br />
+    <img src="./tesla-logo-png-2256.png" alt="" />
+    <br />
+    <br />
+    <div id="root">
+      <div class="wet">
+        <h3>Box</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ratione
+          nostrum aspernatur, excepturi porro laudantium quod sapiente quasi
+          esse odit autem, maiores doloremque omnis voluptas accusamus, corporis
+          repudiandae iure ut?
+        </p>
+      </div>
+      <div class="wet">
+        <h3>Box</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ratione
+          nostrum aspernatur, excepturi porro laudantium quod sapiente quasi
+          esse odit autem, maiores doloremque omnis voluptas accusamus, corporis
+          repudiandae iure ut?
+        </p>
+      </div>
+      <div class="wet">
+        <h3>Box</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ratione
+          nostrum aspernatur, excepturi porro laudantium quod sapiente quasi
+          esse odit autem, maiores doloremque omnis voluptas accusamus, corporis
+          repudiandae iure ut?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

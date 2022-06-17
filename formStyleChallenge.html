@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Challenge</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@1,700&family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #194564;
+        font-family: "Roboto Condensed", sans-serif;
+      }
+      .container {
+        background-color: #fff;
+        width: 25%;
+        /* position: relative; */
+        margin: 80px auto;
+        /* left: 597px; */
+      }
+      .block {
+        display: block;
+      }
+      .container div {
+        padding: 5px 0px;
+        /* margin-left: 50px; */
+      }
+      .input {
+        border-width: 0.1px;
+        width: 100%;
+        border-radius: 4px;
+        height: 28px;
+        width: 250px;
+        padding: 10px;
+      }
+      .button {
+        /* display: block; */
+        background-color: #49c182;
+        border: #fff;
+        color: #fff;
+        border-width: 0.5px;
+        border-radius: 4px;
+        height: 28px;
+        width: 248px;
+        cursor: pointer;
+      }
+      .space {
+        line-height: 1.5em;
+        margin-left: 72px;
+        /* padding-left: 10px; */
+      }
+      #header {
+        text-align: center;
+      }
+      #footer {
+        text-align: center;
+        line-height: 1.5em;
+        /* margin-top: 330px; */
+      }
+      #form p {
+        text-align: center;
+        /* margin-top: 20px; */
+      }
+      .base {
+        color: #fff;
+        /* margin-top: 330px; */
+        position: relative;
+        bottom: 70px;
+      }
+      a {
+        text-decoration: none;
+      }
+      .link {
+        color: #49c182;
+      }
+      .link:hover {
+        text-decoration: underline;
+      }
+      .blue:hover {
+        text-decoration: underline;
+      }
+      .button:hover {
+        background-color: #37a08e;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="form">
+      <div class="container">
+        <div id="header">
+          <h2>Sign Up</h2>
+          <p><strong>It's free and only takes a minute</strong>'</p>
+        </div>
+        <div id="firstName" class="space">
+          <label class="block" for="fName"><strong>First Name</strong></label>
+          <input
+            class="input"
+            type="text"
+            id="fName"
+            placeholder="Enter first name"
+          />
+        </div>
+        <div id="secondName" class="space">
+          <label class="block" for="sName"><strong>Last Name</strong></label>
+          <input
+            class="input"
+            type="text"
+            id="sName"
+            placeholder="Enter last Name"
+          />
+        </div>
+        <div id="email" class="space">
+          <label class="block" for="e"><strong>Email</strong></label>
+          <input class="input" type="email" id="e" placeholder="Enter email" />
+        </div>
+        <div id="pass" class="space">
+          <label class="block" for="p"><strong>Password</strong></label>
+          <input
+            class="input"
+            type="password"
+            id="p"
+            placeholder="Enter password"
+          />
+        </div>
+        <div id="cnfrmPass" class="space">
+          <label class="block" for="c"><strong>Confirm Password</strong></label>
+          <input
+            class="input"
+            type="password"
+            id="c"
+            placeholder="Confirm the password"
+          />
+        </div>
+        <div class="space">
+          <button class="button" type="button">Sign Up</button>
+        </div>
+        <div id="footer">
+          <p>
+            <strong>By clicking the Sign Up button, you agree to our</strong>
+            <br />
+            <a class="blue" href="#"
+              ><strong>Terms & Conditions and Privacy Policy</strong></a
+            >
+          </p>
+        </div>
+      </div>
+      <p class="base">
+        <strong>Already have an account?</strong>
+        <a class="link" href="#">Login here</a>
+      </p>
+    </div>
+  </body>
+</html>
